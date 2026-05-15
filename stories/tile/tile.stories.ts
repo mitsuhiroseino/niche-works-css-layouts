@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
-import type { TileLayoutOptions } from '../src/tile';
-import tile from '../src/tile';
-import { ARGS, ARG_TYPES } from './_internal/constants';
-import createRenderer from './_internal/createRenderer';
-import type { DebugOptions } from './_internal/types';
+import type { TileLayoutOptions } from '../../src/tile';
+import tile from '../../src/tile';
+import { ARGS, ARG_TYPES } from '../_internal/constants';
+import createRenderer from '../_internal/createRenderer';
+import type { DebugOptions } from '../_internal/types';
 
 type LayoutOptions = TileLayoutOptions & DebugOptions;
 

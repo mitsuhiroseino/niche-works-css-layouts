@@ -31,3 +31,4 @@ lerna-debug.log*
 tsconfig.tsbuildinfo
 
 memo.md
+test-results/

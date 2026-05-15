@@ -1,5 +1,4 @@
 import type { LooseDictionary } from '@niche-works/types';
-import { recaseKebab } from '@niche-works/utils';
 import unit from '../../src/_helpers/unit';
 
 // 文字列→数値への変換を行うargs
@@ -88,19 +87,6 @@ function _putUnit<O extends LooseDictionary>(obj: O) {
   for (const up of UNIT_PROPS) {
     if (up in result) {
       result[up] = unit(result[up]);
-    }
-  }
-  return result as O;
-}
-
-function _toKebab<O extends LooseDictionary>(obj: O) {
-  const result: LooseDictionary = {};
-  for (const name in obj) {
-    const value = obj[name];
-    if (name.startsWith('--')) {
-      result[name] = value;
-    } else {
-      result[recaseKebab(name)] = value;
     }
   }
   return result as O;

@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
-import type { MatrixLayoutOptions } from '../src/matrix';
-import matrix from '../src/matrix';
-import { ARGS, ARG_TYPES } from './_internal/constants';
-import createRenderer from './_internal/createRenderer';
-import type { DebugOptions } from './_internal/types';
+import type { MatrixLayoutOptions } from '../../src/matrix';
+import matrix from '../../src/matrix';
+import { ARGS, ARG_TYPES } from '../_internal/constants';
+import createRenderer from '../_internal/createRenderer';
+import type { DebugOptions } from '../_internal/types';
 
 type LayoutOptions = MatrixLayoutOptions & DebugOptions;
 

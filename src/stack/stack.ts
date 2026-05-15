@@ -5,7 +5,7 @@ import {
   clsLayoutAlign,
   clsLayoutChildSize,
   clsLayoutDirection,
-  cssLayoutCrossAxisSizeProp,
+  cssLayoutAxisSizeProp,
   varLayoutChildSize,
 } from '../_constants';
 import applySpacing from '../_helpers/applySpacing';
@@ -129,7 +129,7 @@ function _getStackClossAxisStyle(
         clsLayoutAdjust[axis][adjust],
       ),
       style: {
-        [`min-${cssLayoutCrossAxisSizeProp[axis]}`]: '100%',
+        [`min-${cssLayoutAxisSizeProp[axis]}`]: '100%',
         [varLayoutChildSize[axis]]: `min(0, 100%)`,
       },
     };
@@ -141,7 +141,7 @@ function _getStackClossAxisStyle(
         clsLayoutAdjust[axis][adjust],
       ),
       style: {
-        [`min-${cssLayoutCrossAxisSizeProp[axis]}`]: '100%',
+        [`min-${cssLayoutAxisSizeProp[axis]}`]: '100%',
       },
     };
     if (hasValue(childSize)) {

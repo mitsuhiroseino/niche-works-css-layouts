@@ -112,9 +112,9 @@ export const varLayoutSpacing = {
 } as const;
 
 /**
- * 交差軸方向のサイズプロパティ
+ * 軸に対するサイズプロパティ
  */
-export const cssLayoutCrossAxisSizeProp = {
-  x: 'height',
-  y: 'width',
+export const cssLayoutAxisSizeProp = {
+  x: 'width',
+  y: 'height',
 } as const;

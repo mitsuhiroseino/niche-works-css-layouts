@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import type { ArgTypes } from '@storybook/web-components-vite';
-import { Adjust, AlignX, AlignY, Direction } from '../../src/constants';
 import type {
   AdjustOptions,
   AlignOptions,
@@ -9,7 +8,8 @@ import type {
   ChildSizeOptions,
   DirectionOptions,
   SpacingOptions,
-} from '../../src/types';
+} from '../../src/_types';
+import { Adjust, AlignX, AlignY, Direction } from '../../src/constants';
 import type { DebugOptions } from './types';
 
 export const DIRECTION_ARG_OPTIONS = Object.values(Direction);
