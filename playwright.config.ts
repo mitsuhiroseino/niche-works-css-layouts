@@ -1,7 +1,7 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './tests/stack',
+  testDir: './tests',
   webServer: {
     command: 'pnpm storybook',
     url: 'http://localhost:6006',
