@@ -1,7 +1,6 @@
 import applyChildSize from '../_helpers/applyChildSize';
 import { clsLayoutPin } from '../constants';
 import type { CreateLayout, LayoutResult } from '../types';
-import './styles.scss';
 import type { PinLayoutOptions } from './types';
 
 /**

@@ -4,7 +4,6 @@ import { clsLayoutDirection } from '../_constants';
 import applySpacing from '../_helpers/applySpacing';
 import { clsLayoutPack } from '../constants';
 import type { CreateLayout, LayoutResult } from '../types';
-import './styles.scss';
 import type { PackLayoutOptions } from './types';
 
 /**

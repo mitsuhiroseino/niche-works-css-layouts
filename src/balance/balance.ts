@@ -9,7 +9,6 @@ import applyChildSize from '../_helpers/applyChildSize';
 import applySpacing from '../_helpers/applySpacing';
 import { clsLayoutBalance } from '../constants';
 import type { CreateLayout, LayoutResult } from '../types';
-import './styles.scss';
 import type { BalanceLayoutOptions } from './types';
 
 /**

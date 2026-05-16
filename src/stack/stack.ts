@@ -16,7 +16,6 @@ import type { ChildSize } from '../_types';
 import type { Adjust, AlignX, AlignY, Direction } from '../constants';
 import { clsLayoutStack } from '../constants';
 import type { CreateLayout, LayoutResult } from '../types';
-import './styles.scss';
 import type { StackLayoutOptions } from './types';
 
 /**

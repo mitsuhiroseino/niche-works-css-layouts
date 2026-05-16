@@ -20,7 +20,6 @@ import {
   varLayoutTemplateY,
 } from '../constants';
 import type { CreateLayout, LayoutResult } from '../types';
-import './styles.scss';
 import type { TileLayoutOptions } from './types';
 
 /**

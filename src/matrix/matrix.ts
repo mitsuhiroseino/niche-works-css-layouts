@@ -23,7 +23,6 @@ import type {
 } from '../_types';
 import { Adjust, clsLayoutMatrix } from '../constants';
 import type { CreateLayout, LayoutResult } from '../types';
-import './styles.scss';
 import type { MatrixLayoutOptions } from './types';
 
 type MatrixLayoutInternalOptions = AdjustOptions &

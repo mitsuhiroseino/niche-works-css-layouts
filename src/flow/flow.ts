@@ -15,7 +15,6 @@ import type { ChildSize } from '../_types';
 import type { Adjust, AlignX, AlignY } from '../constants';
 import { clsLayoutFlow } from '../constants';
 import type { CreateLayout, LayoutResult } from '../types';
-import './styles.scss';
 import type { FlowLayoutOptions } from './types';
 
 /**
